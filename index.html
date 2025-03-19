@@ -13,14 +13,13 @@
       rel="stylesheet"
     />
     <script>
-      var clickTag = "";
-    </script>
+      var clickTag = window.location.search.split('clicktag=')[1] || "";
+  </script>
   </head>
 </html>
 
 <body>
-  <div class="banner" id="banner">
-    <a href="javascript:void(0);" onclick="window.open(window.clickTag, '_blank');">
+  <div class="banner" onclick="window.open(clickTag, '_blank');">
 
     <img src="media/erde.webp" class="erde"/>
     <img src="media/green-block.webp" class="green-block">

@@ -30,12 +30,6 @@ body {
     transform: scale(1);
 }
 
-@media (max-width: 950px) {
-    .banner {
-        transform: scale(0.8);
-    }
-}
-
 .planning-day {
     font-size: 27px;
     font-family: 'Exo', sans-serif;
